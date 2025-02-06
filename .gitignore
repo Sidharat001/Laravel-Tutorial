@@ -1,0 +1,17 @@
+# General Laravel project ignores
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+.env.*
+/.idea
+/.vscode
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configuration files
+/.idea/
+/.vscode/
