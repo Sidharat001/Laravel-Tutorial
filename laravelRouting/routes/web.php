@@ -51,8 +51,4 @@ Route::fallback(function () {
     return response()->view('404', [], 404);
 });
 
-// Use full terminal command
-// php artisan route:list --except-vendor
-// php artisan route:list --path=blog
-
 
